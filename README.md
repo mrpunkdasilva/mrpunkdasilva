@@ -17,13 +17,13 @@
 
 ## Hi there!  I'm Gustavo, a Brazilian 🇧🇷 programming enthusiast.
 
-**Determined to become a Software Enginner ,** I'm eager to master front-end and back-end technologies, as well as mobile development .
+**Determined to become a Software Engineer,** I'm eager to master front-end and back-end technologies and mobile development.
 
 **Passionate about creating user-friendly and visually appealing applications,** I love working in collaborative environments  where I can contribute my ideas and learn from others.
 
-**Always seeking new challenges and striving for excellence,** I believe in continuous learning  and keeping up with the latest trends in the programming world .
+**Always seeking new challenges and striving for excellence,** I believe in continuous learning  and keeping up with the latest trends in the programming world.
 
-**Problem-solving, critical thinking, and attention to detail** are my superpowers  that allow me to analyze complex situations and come up with effective solutions.
+My skills problem solving, critical thinking, and attention to detail—allow me to analyze complex situations and devise effective solutions.
 
 **I'm excited to work on innovative projects and contribute to the ever-evolving world of technology.** Let's connect and create something amazing together! ✨
 
@@ -44,7 +44,6 @@
 - BackEnd Developer
 - Mobile Developer
 - Web Design
-
 
 
 ### ✍️ Studying Recently
@@ -212,7 +211,7 @@
  <summary>Click to see details</summary>
  <br />      
        
- <img src="https://github-profile-trophy.vercel.app/?username=MrNullus&theme=dark&column=7" height="150" style="border-radius:50px;"/>
+ <img src="https://github-profile-trophy.vercel.app/?username=mrpunkdasilva&theme=dark&column=7" height="150" style="border-radius:50px;"/>
 
 </details>
 <br />
@@ -225,7 +224,7 @@
   
 <p align="center">
     <img src="./banner.jpg" alt="Banner" /> 
-   <img src="https://github-readme-stats.vercel.app/api?username=MrNullus&show_icons=true&theme=transparent&hide_border=true" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrNullus&hide_border=true&theme=transparent&layout=compact&langs_count=10" />
+   <img src="https://github-readme-stats.vercel.app/api?username=mrpunkdasilva&show_icons=true&theme=transparent&hide_border=true" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrpunkdasilva&hide_border=true&theme=transparent&layout=compact&langs_count=10" />
 <br>
 
 <img  src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" ></img> 
