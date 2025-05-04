@@ -267,20 +267,6 @@ My problem-solving abilities, critical thinking, and attention to detail allow m
  [![@mrnullus's Holopin board](https://holopin.me/mrnullus)](https://holopin.io/@mrnullus)
 </details>
 
-## Let's Connect
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/dev-punk-da-silva" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:gustavojs417@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/mrpunkdasilva" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" />
-  </a>
-</div>
-
 ## Favorite Quote
 > "Programadores e artistas são os únicos profissionais que tem como hobby a própria profissão." – Rafael Lain
 
