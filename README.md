@@ -270,6 +270,12 @@ My problem-solving abilities, critical thinking, and attention to detail allow m
 ## Favorite Quote
 > "Programadores e artistas são os únicos profissionais que tem como hobby a própria profissão." – Rafael Lain
 
+<br>
+
+<div align="center">
+  <img src="./divider.svg" width="100%" />
+</div>
+
 <div align="center">
   <h3>Let's build something extraordinary together.</h3>
 </div>
