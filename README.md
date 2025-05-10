@@ -5,8 +5,8 @@
   <h3>FULL STACK SOFTWARE ENGINEER</h3>
   
   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dev-punk-da-silva)
-  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gustavojs417@gmail.com)
-  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/mrpunkdasilva)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gustavojs417@gmail.com)
+[![Portfólio](https://img.shields.io/badge/-Portfólio-4CAF50?style=flat-square&logo=chrome)](https://mrpunkdasilva.vercel.app/)
 </div>
 
 ## About Me
