@@ -4,7 +4,7 @@
   <h1>GUSTAVO JESUS</h1>
   <h3>FULL STACK SOFTWARE ENGINEER</h3>
   
-  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dev-punk-da-silva)
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gustavo-henrique-de-jesus/)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gustavojs417@gmail.com)
 [![Portfólio](https://img.shields.io/badge/-Portfólio-4CAF50?style=flat-square&logo=chrome)](https://mrpunkdasilva.vercel.app/)
 </div>
