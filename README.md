@@ -16,8 +16,6 @@
 
 ### 👨‍💻 About Me
 
-<img align="right" src="https://github.com/mrpunkdasilva.png" width="180px" style="border-radius: 50%;" />
-
 I'm a Brazilian Software Engineer passionate about creating elegant solutions for complex problems. Currently, I work as a **System Analyst at Mutant**, focusing on frontend excellence and scalable architectures. I'm also a Software Engineering student at **Jala University**, where I contribute as a volunteer mentor.
 
 - 💻 Expertise in **React, Next.js, Node.js** and modern web ecosystems.
