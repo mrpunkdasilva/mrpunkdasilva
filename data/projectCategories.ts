@@ -5,14 +5,14 @@ export interface ProjectCategory {
 }
 
 export const projectCategories: ProjectCategory[] = [
-  // Main Category
+  
   {
     id: 'all',
     name: 'All Projects',
     group: 'main'
   },
 
-  // Frontend Frameworks
+  
   {
     id: 'react',
     name: 'React',
@@ -34,7 +34,7 @@ export const projectCategories: ProjectCategory[] = [
     group: 'frontend'
   },
 
-  // Core Technologies
+  
   {
     id: 'javascript',
     name: 'JavaScript',
@@ -46,7 +46,7 @@ export const projectCategories: ProjectCategory[] = [
     group: 'core'
   },
 
-  // Styling
+  
   {
     id: 'css',
     name: 'CSS',
@@ -63,7 +63,7 @@ export const projectCategories: ProjectCategory[] = [
     group: 'styling'
   },
 
-  // Backend
+  
   {
     id: 'node',
     name: 'Node.js',
@@ -75,7 +75,7 @@ export const projectCategories: ProjectCategory[] = [
     group: 'backend'
   },
 
-  // Database
+  
   {
     id: 'firebase',
     name: 'Firebase',
@@ -88,7 +88,7 @@ export const projectCategories: ProjectCategory[] = [
   }
 ];
 
-// Group categories by their type
+
 export const groupedCategories = {
   main: projectCategories.filter(cat => cat.group === 'main'),
   frontend: projectCategories.filter(cat => cat.group === 'frontend'),

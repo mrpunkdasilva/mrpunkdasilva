@@ -1,93 +1,15 @@
-import {
-    DiHtml5,
-    DiCss3,
-    DiJsBadge,
-    DiMysql,
-    DiMsqlServer,
-    DiReact,
-    DiLaravel,
-    DiGithub,
-    DiPython,
-    DiFirebase,
-    DiPostgresql,
-    DiMongodb, 
-    DiAngularSimple, 
-    DiJava,
-    DiNodejs,
-    DiAws,
-    DiCss3Full,
-    DiJqueryLogo,
-    DiBootstrap,
-    DiSqllite
-} from 'react-icons/di';
-import {
-    FaPhp,
-    FaGitSquare,
-    FaFigma,
-    FaSass,
-    FaJenkins,
-    FaDocker,
-    FaNpm,
-    FaAccessibleIcon,
-    FaTerminal,
-    FaDatabase
-} from "react-icons/fa";
-import {
-    SiTypescript,
-    SiExpress,
-    SiSpringboot,
-    SiVuedotjs,
-    SiTailwindcss,
-    SiJest,
-    SiRedux,
-    SiKubernetes,
-    SiGraphql,
-    SiWebpack,
-    SiJira,
-    SiSwagger,
-    SiAngular,
-    SiReactivex,
-    SiVercel,
-    SiFirebase,
-    SiVite,
-    SiReact,
-    SiNuxtdotjs,
-    SiJsonwebtokens,
-    SiReactrouter,
-    SiSocketdotio,
-    SiThreedotjs,
-    SiFramer,
-    SiApachejmeter,
-    SiComposer,
-    SiContentful,
-    SiPhpmyadmin,
-    SiEmberdotjs,
-    SiGitlab,
-    SiGithubactions,
-    SiMicrosoftexcel,
-    SiMicrosoftpowerpoint,
-    SiMicrosoftoffice,
-    SiFigma
-} from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
-
-export type SkillLevel = 'Basic' | 'Intermediate' | 'Advanced';
-
 export interface Technology {
     id: string;
     name: string;
-    icon: JSX.Element;
-    desc: `${SkillLevel} Skills`;
+    desc: string;
     category: 'frontend' | 'backend' | 'database' | 'devops' | 'tools';
     color?: string;
 }
 
 export const technologies: Technology[] = [
-    // Frontend Technologies
     {
         id: "html",
         name: "HTML5",
-        icon: <DiHtml5 />,
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#E44D26'
@@ -95,7 +17,7 @@ export const technologies: Technology[] = [
     {
         id: "responsive",
         name: "Responsive Design",
-        icon: <DiCss3 />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#1572B6'
@@ -103,7 +25,7 @@ export const technologies: Technology[] = [
     {
         id: "css",
         name: "CSS3",
-        icon: <DiCss3 />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#1572B6'
@@ -111,7 +33,7 @@ export const technologies: Technology[] = [
     {
         id: "sass",
         name: "Sass",
-        icon: <FaSass />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#CC6699'
@@ -119,7 +41,7 @@ export const technologies: Technology[] = [
     {
         id: "js",
         name: "JavaScript",
-        icon: <DiJsBadge />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#F0DB4F'
@@ -127,7 +49,7 @@ export const technologies: Technology[] = [
     {
         id: "typescript",
         name: "TypeScript",
-        icon: <SiTypescript />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#3178C6'
@@ -135,7 +57,7 @@ export const technologies: Technology[] = [
     {
         id: "react",
         name: "React",
-        icon: <DiReact />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#61DAFB'
@@ -143,7 +65,7 @@ export const technologies: Technology[] = [
     {
         id: "redux",
         name: "Redux",
-        icon: <SiRedux />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#764ABC'
@@ -151,15 +73,15 @@ export const technologies: Technology[] = [
     {
         id: "nextjs",
         name: "Next.js",
-        icon: <TbBrandNextjs />,
-        desc: "Advanced Skills", // Updated based on multiple Next.js projects
+
+        desc: "Advanced Skills",
         category: 'frontend',
         color: '#000000'
     },
     {
         id: "vue",
         name: "Vue.js",
-        icon: <SiVuedotjs />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#4FC08D'
@@ -167,7 +89,7 @@ export const technologies: Technology[] = [
     {
         id: "angular",
         name: "Angular",
-        icon: <DiAngularSimple />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#DD0031'
@@ -175,7 +97,7 @@ export const technologies: Technology[] = [
     {
         id: "tailwindcss",
         name: "Tailwind CSS",
-        icon: <SiTailwindcss />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#06B6D4'
@@ -183,7 +105,7 @@ export const technologies: Technology[] = [
     {
         id: "rxjs",
         name: "RxJS",
-        icon: <SiReactivex />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#B7178C'
@@ -191,7 +113,7 @@ export const technologies: Technology[] = [
     {
         id: "material",
         name: "Angular Material",
-        icon: <SiAngular />, // Changed from SiAngularmaterial to SiAngular
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#3F51B5'
@@ -199,7 +121,7 @@ export const technologies: Technology[] = [
     {
         id: "headlessui",
         name: "Headless UI",
-        icon: <SiReact />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#66E3FF'
@@ -207,7 +129,7 @@ export const technologies: Technology[] = [
     {
         id: "cssmodules",
         name: "CSS Modules",
-        icon: <DiCss3Full />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#000000'
@@ -215,7 +137,7 @@ export const technologies: Technology[] = [
     {
         id: "vite",
         name: "Vite",
-        icon: <SiVite />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#646CFF'
@@ -223,7 +145,7 @@ export const technologies: Technology[] = [
     {
         id: "tanstack",
         name: "TanStack Query",
-        icon: <DiReact />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#FF4154'
@@ -231,7 +153,7 @@ export const technologies: Technology[] = [
     {
         id: "jquery",
         name: "jQuery",
-        icon: <DiJqueryLogo />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#0769AD'
@@ -239,7 +161,7 @@ export const technologies: Technology[] = [
     {
         id: "bootstrap",
         name: "Bootstrap",
-        icon: <DiBootstrap />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#7952B3'
@@ -247,7 +169,7 @@ export const technologies: Technology[] = [
     {
         id: "nuxtjs",
         name: "Nuxt.js",
-        icon: <SiNuxtdotjs />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#00DC82'
@@ -255,7 +177,7 @@ export const technologies: Technology[] = [
     {
         id: "reactrouter",
         name: "React Router",
-        icon: <SiReactrouter />,
+
         desc: "Advanced Skills",
         category: 'frontend',
         color: '#CA4245'
@@ -263,7 +185,7 @@ export const technologies: Technology[] = [
     {
         id: "socketio",
         name: "Socket.IO",
-        icon: <SiSocketdotio />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#010101'
@@ -271,7 +193,7 @@ export const technologies: Technology[] = [
     {
         id: "threejs",
         name: "THREE.js",
-        icon: <SiThreedotjs />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#000000'
@@ -279,7 +201,7 @@ export const technologies: Technology[] = [
     {
         id: "framer",
         name: "Framer Motion",
-        icon: <SiFramer />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#0055FF'
@@ -287,7 +209,7 @@ export const technologies: Technology[] = [
     {
         id: "webspeech",
         name: "Web Speech API",
-        icon: <SiReact />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#4285F4'
@@ -295,7 +217,7 @@ export const technologies: Technology[] = [
     {
         id: "indexeddb",
         name: "IndexedDB",
-        icon: <FaDatabase />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#FF9800'
@@ -303,7 +225,7 @@ export const technologies: Technology[] = [
     {
         id: "serviceworkers",
         name: "Service Workers",
-        icon: <SiReact />,
+
         desc: "Basic Skills",
         category: 'frontend',
         color: '#3740FF'
@@ -311,7 +233,7 @@ export const technologies: Technology[] = [
     {
         id: "accessibility",
         name: "W3C Accessibility",
-        icon: <FaAccessibleIcon />,
+
         desc: "Intermediate Skills",
         category: 'frontend',
         color: '#005A9C'
@@ -321,7 +243,7 @@ export const technologies: Technology[] = [
     {
         id: "nodejs",
         name: "Node.js",
-        icon: <DiNodejs />,
+
         desc: "Advanced Skills",
         category: 'backend',
         color: '#339933'
@@ -329,7 +251,7 @@ export const technologies: Technology[] = [
     {
         id: "express",
         name: "Express",
-        icon: <SiExpress />,
+
         desc: "Advanced Skills", // Updated based on Black Nib project
         category: 'backend',
         color: '#000000'
@@ -337,7 +259,7 @@ export const technologies: Technology[] = [
     {
         id: "java",
         name: "Java",
-        icon: <DiJava />,
+
         desc: "Intermediate Skills",
         category: 'backend',
         color: '#007396'
@@ -345,7 +267,7 @@ export const technologies: Technology[] = [
     {
         id: "springboot",
         name: "Spring Boot",
-        icon: <SiSpringboot />,
+
         desc: "Basic Skills",
         category: 'backend',
         color: '#6DB33F'
@@ -353,7 +275,7 @@ export const technologies: Technology[] = [
     {
         id: "php",
         name: "PHP",
-        icon: <FaPhp />,
+
         desc: "Intermediate Skills",
         category: 'backend',
         color: '#777BB4'
@@ -361,7 +283,7 @@ export const technologies: Technology[] = [
     {
         id: "laravel",
         name: "Laravel",
-        icon: <DiLaravel />,
+
         desc: "Intermediate Skills",
         category: 'backend',
         color: '#FF2D20'
@@ -369,7 +291,7 @@ export const technologies: Technology[] = [
     {
         id: "python",
         name: "Python",
-        icon: <DiPython />,
+
         desc: "Advanced Skills",
         category: 'backend',
         color: '#3776AB'
@@ -377,7 +299,7 @@ export const technologies: Technology[] = [
     {
         id: "graphql",
         name: "GraphQL",
-        icon: <SiGraphql />,
+
         desc: "Basic Skills",
         category: 'backend',
         color: '#E10098'
@@ -385,7 +307,7 @@ export const technologies: Technology[] = [
     {
         id: "jwt",
         name: "JWT",
-        icon: <SiJsonwebtokens />,
+
         desc: "Intermediate Skills",
         category: 'backend',
         color: '#000000'
@@ -393,7 +315,7 @@ export const technologies: Technology[] = [
     {
         id: "ejs",
         name: "EJS",
-        icon: <SiEmberdotjs />,
+
         desc: "Basic Skills",
         category: 'backend',
         color: '#A91E50'
@@ -401,7 +323,7 @@ export const technologies: Technology[] = [
     {
         id: "shell",
         name: "Shell/CLI",
-        icon: <FaTerminal />,
+
         desc: "Intermediate Skills",
         category: 'backend',
         color: '#4EAA25'
@@ -409,7 +331,7 @@ export const technologies: Technology[] = [
     {
         id: "maven",
         name: "Maven",
-        icon: <SiApachejmeter />,
+
         desc: "Basic Skills",
         category: 'backend',
         color: '#C71A36'
@@ -417,7 +339,7 @@ export const technologies: Technology[] = [
     {
         id: "composer",
         name: "Composer",
-        icon: <SiComposer />,
+
         desc: "Basic Skills",
         category: 'backend',
         color: '#885630'
@@ -427,7 +349,7 @@ export const technologies: Technology[] = [
     {
         id: "mysql",
         name: "MySQL",
-        icon: <DiMysql />,
+
         desc: "Intermediate Skills",
         category: 'database',
         color: '#4479A1'
@@ -435,7 +357,7 @@ export const technologies: Technology[] = [
     {
         id: "postgres",
         name: "PostgreSQL",
-        icon: <DiPostgresql />,
+
         desc: "Intermediate Skills",
         category: 'database',
         color: '#336791'
@@ -443,7 +365,7 @@ export const technologies: Technology[] = [
     {
         id: "mongodb",
         name: "MongoDB",
-        icon: <DiMongodb />,
+
         desc: "Advanced Skills", // Updated based on Black Nib project
         category: 'database',
         color: '#47A248'
@@ -451,7 +373,7 @@ export const technologies: Technology[] = [
     {
         id: "sqlServer",
         name: "SQL Server",
-        icon: <DiMsqlServer />,
+
         desc: "Basic Skills",
         category: 'database',
         color: '#CC2927'
@@ -459,7 +381,7 @@ export const technologies: Technology[] = [
     {
         id: "firebase",
         name: "Firebase",
-        icon: <DiFirebase />,
+
         desc: "Advanced Skills",
         category: 'database',
         color: '#FFCA28'
@@ -467,7 +389,7 @@ export const technologies: Technology[] = [
     {
         id: "firebaseauth",
         name: "Firebase Authentication",
-        icon: <SiFirebase />,
+
         desc: "Advanced Skills",
         category: 'database',
         color: '#FFCA28'
@@ -475,7 +397,7 @@ export const technologies: Technology[] = [
     {
         id: "realtimedb",
         name: "Realtime Database",
-        icon: <SiFirebase />,
+
         desc: "Advanced Skills",
         category: 'database',
         color: '#FFCA28'
@@ -483,7 +405,7 @@ export const technologies: Technology[] = [
     {
         id: "sqlite",
         name: "SQLite",
-        icon: <DiSqllite />,
+
         desc: "Basic Skills",
         category: 'database',
         color: '#003B57'
@@ -491,7 +413,7 @@ export const technologies: Technology[] = [
     {
         id: "phpmyadmin",
         name: "phpMyAdmin",
-        icon: <SiPhpmyadmin />,
+
         desc: "Intermediate Skills",
         category: 'database',
         color: '#6C78AF'
@@ -501,7 +423,7 @@ export const technologies: Technology[] = [
     {
         id: "git",
         name: "Git",
-        icon: <FaGitSquare />,
+
         desc: "Advanced Skills",
         category: 'devops',
         color: '#F05032'
@@ -509,7 +431,7 @@ export const technologies: Technology[] = [
     {
         id: "github",
         name: "GitHub",
-        icon: <DiGithub />,
+
         desc: "Advanced Skills",
         category: 'devops',
         color: '#181717'
@@ -517,7 +439,7 @@ export const technologies: Technology[] = [
     {
         id: "githubactions",
         name: "GitHub Actions",
-        icon: <SiGithubactions />,
+
         desc: "Intermediate Skills",
         category: 'devops',
         color: '#2088FF'
@@ -525,7 +447,7 @@ export const technologies: Technology[] = [
     {
         id: "gitlab",
         name: "GitLab",
-        icon: <SiGitlab />,
+
         desc: "Intermediate Skills",
         category: 'devops',
         color: '#FC6D26'
@@ -533,7 +455,7 @@ export const technologies: Technology[] = [
     {
         id: "docker",
         name: "Docker",
-        icon: <FaDocker />,
+
         desc: "Intermediate Skills",
         category: 'devops',
         color: '#2496ED'
@@ -541,7 +463,7 @@ export const technologies: Technology[] = [
     {
         id: "gitlabci",
         name: "GitLab CI/CD",
-        icon: <SiGitlab />,
+
         desc: "Intermediate Skills",
         category: 'devops',
         color: '#FC6D26'
@@ -549,7 +471,7 @@ export const technologies: Technology[] = [
     {
         id: "kubernetes",
         name: "Kubernetes",
-        icon: <SiKubernetes />,
+
         desc: "Basic Skills",
         category: 'devops',
         color: '#326CE5'
@@ -557,7 +479,7 @@ export const technologies: Technology[] = [
     {
         id: "aws",
         name: "AWS",
-        icon: <DiAws />,
+
         desc: "Basic Skills",
         category: 'devops',
         color: '#232F3E'
@@ -565,7 +487,7 @@ export const technologies: Technology[] = [
     {
         id: "jenkins",
         name: "Jenkins",
-        icon: <FaJenkins />,
+
         desc: "Basic Skills",
         category: 'devops',
         color: '#D24939'
@@ -575,7 +497,7 @@ export const technologies: Technology[] = [
     {
         id: "jest",
         name: "Jest",
-        icon: <SiJest />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#C21325'
@@ -583,7 +505,7 @@ export const technologies: Technology[] = [
     {
         id: "webpack",
         name: "Webpack",
-        icon: <SiWebpack />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#8DD6F9'
@@ -591,7 +513,7 @@ export const technologies: Technology[] = [
     {
         id: "npm",
         name: "NPM",
-        icon: <FaNpm />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#CB3837'
@@ -599,7 +521,7 @@ export const technologies: Technology[] = [
     {
         id: "jira",
         name: "Jira",
-        icon: <SiJira />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#0052CC'
@@ -607,7 +529,7 @@ export const technologies: Technology[] = [
     {
         id: "swagger",
         name: "Swagger",
-        icon: <SiSwagger />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#85EA2D'
@@ -615,7 +537,7 @@ export const technologies: Technology[] = [
     {
         id: "figma",
         name: "Figma",
-        icon: <FaFigma />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#F24E1E'
@@ -623,7 +545,7 @@ export const technologies: Technology[] = [
     {
         id: "vercel",
         name: "Vercel",
-        icon: <SiVercel />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#000000'
@@ -631,7 +553,7 @@ export const technologies: Technology[] = [
     {
         id: "sanity",
         name: "Sanity",
-        icon: <SiContentful />,
+
         desc: "Basic Skills",
         category: 'tools',
         color: '#F03E2F'
@@ -639,7 +561,7 @@ export const technologies: Technology[] = [
     {
         id: "office",
         name: "Microsoft Office",
-        icon: <SiMicrosoftoffice />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#D83B01'
@@ -647,7 +569,7 @@ export const technologies: Technology[] = [
     {
         id: "excel",
         name: "Microsoft Excel",
-        icon: <SiMicrosoftexcel />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#217346'
@@ -655,7 +577,7 @@ export const technologies: Technology[] = [
     {
         id: "powerpoint",
         name: "Microsoft PowerPoint",
-        icon: <SiMicrosoftpowerpoint />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#B7472A'
@@ -663,7 +585,7 @@ export const technologies: Technology[] = [
     {
         id: "computerrepair",
         name: "Computer Repair",
-        icon: <FaTerminal />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#4CAF50'
@@ -671,7 +593,7 @@ export const technologies: Technology[] = [
     {
         id: "figma",
         name: "Figma",
-        icon: <SiFigma />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#F24E1E'
@@ -679,7 +601,7 @@ export const technologies: Technology[] = [
     {
         id: "webdesign",
         name: "Web Design",
-        icon: <DiCss3 />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#FF9800'
@@ -687,7 +609,7 @@ export const technologies: Technology[] = [
     {
         id: "uiux",
         name: "UI/UX Design",
-        icon: <FaFigma />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#0ACF83'
@@ -695,7 +617,7 @@ export const technologies: Technology[] = [
     {
         id: "prototyping",
         name: "Prototyping",
-        icon: <SiFigma />,
+
         desc: "Intermediate Skills",
         category: 'tools',
         color: '#A259FF'
@@ -703,7 +625,7 @@ export const technologies: Technology[] = [
     {
         id: "agile",
         name: "Agile Methodology",
-        icon: <SiJira />,
+
         desc: "Advanced Skills",
         category: 'tools',
         color: '#0052CC'
