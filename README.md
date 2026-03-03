@@ -93,32 +93,6 @@ I'm a Brazilian Software Engineer passionate about creating elegant solutions fo
 
 ---
 
-### 📊 GitHub Stats & Achievements
-
-<details>
- <summary>GitHub Stats</summary>
- <br />      
-  
-<p align="center">
-   <img src="https://github-readme-stats.vercel.app/api?username=mrpunkdasilva&show_icons=true&theme=transparent&hide_border=true" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrpunkdasilva&hide_border=true&theme=transparent&layout=compact&langs_count=10" />
-</p>
-</details>
-
-<details>
- <summary>Trophies</summary>
- <br />      
-       
- <img src="https://github-profile-trophy.vercel.app/?username=mrpunkdasilva&theme=dark&column=7" height="150" style="border-radius:50px;"/>
-</details>
-
-<details>
- <summary>Holopin Badges</summary>
- <br />      
-       
- [![@mrnullus's Holopin board](https://holopin.me/mrnullus)](https://holopin.io/@mrnullus)
-</details>
-
----
 
 ### 💬 Let's Connect
 
