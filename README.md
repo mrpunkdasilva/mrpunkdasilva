@@ -187,28 +187,22 @@ My problem-solving abilities, critical thinking, and attention to detail allow m
   </div>
 
   <div style="flex: 1; min-width: 300px;">
-    <h3>📊 Current Focus & Learning Path</h3>
-    <p>
-      <img src="https://img.shields.io/badge/-Testing-8D6748?style=flat-square&logo=testing-library&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Cypress-17202C?style=flat-square&logo=cypress&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat-square&logo=ruby-on-rails&logoColor=white" />
-    </p>
-    <h4>Upcoming Studies</h4>
-    <p>
-      <img src="https://img.shields.io/badge/-AWS_Services-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Big_O_Notation-4285F4?style=flat-square&logo=google&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Clean_Architecture-16A5F3?style=flat-square&logo=clean-code&logoColor=white" />
-    </p>
-    <h4>Areas of Interest</h4>
-    <p>
-      <img src="https://img.shields.io/badge/-Full_Stack_Development-607D8B?style=flat-square&logo=stack-overflow&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Frontend_Development-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/-Backend_Development-339933?style=flat-square&logo=node.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Mobile_Development-3DDC84?style=flat-square&logo=android&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Web_Design-FF7F50?style=flat-square&logo=adobe&logoColor=white" />
-    </p>
+
+## 📊 Current Focus & Learning Path
+
+I'm currently diving deep into the foundations that make great software possible. My studies are centered around three core pillars:
+
+**🔭 Right Now**
+- **Software Architecture** — Learning how to design scalable, maintainable systems. Exploring patterns like Clean Architecture, SOLID principles, and how to structure frontend applications that stand the test of time.
+- **Frontend Engineering** — Going beyond just building interfaces. Studying performance optimization, design systems, accessibility, and advanced patterns in React and Next.js.
+- **Algorithms & Data Structures** — Strengthening my problem-solving core with Big O Notation, common algorithms, and knowing when to apply the right solution to the right problem.
+
+**🚀 On the Horizon**
+- **AWS & Cloud Computing** — Understanding the cloud infrastructure that powers modern applications. From deployment to scalability, I want to own the full lifecycle of an application.
+
+**💡 Areas of Interest**
+Full Stack Development • Frontend Engineering • Backend Architecture • Mobile Development • Web Design
+
   </div>
 </div>
 
@@ -248,16 +242,7 @@ My problem-solving abilities, critical thinking, and attention to detail allow m
   <img src="./divider.svg" width="100%" />
 </div>
 
-## GitHub Stats & Achievements
-
-<details>
- <summary>GitHub Stats</summary>
- <br />      
-  
-<p align="center">
-   <img src="https://github-readme-stats.vercel.app/api?username=mrpunkdasilva&show_icons=true&theme=transparent&hide_border=true" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrpunkdasilva&hide_border=true&theme=transparent&layout=compact&langs_count=10" />
-</p>
-</details>
+## Community & Achievements
 
 <details>
  <summary>Trophies</summary>
